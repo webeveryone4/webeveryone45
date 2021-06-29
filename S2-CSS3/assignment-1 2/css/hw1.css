@@ -1,0 +1,91 @@
+body{
+	margin: 2%;
+}
+header{
+	/*background: #CC9900;*/
+	text-align: center;
+	background-image: url("images/flywheel.jpg");
+	background-size: cover;
+	padding: 50px;
+}
+
+h1{
+	color: #FFFFFF;
+	font-size: 200%; /*TamaÃ±o*/
+	text-transform: uppercase; /*Mayusculas*/
+}
+
+
+nav a{
+	width: 13%;
+	display: inline-block;
+	margin-left: 10%;
+	background: linear-gradient(#ffcccc 0%, #ccffcc 100%);
+	border-radius: 25px;
+	text-decoration: none;   /*quita subrayado*/
+}
+
+.active{
+	background: #9999cc;
+}
+
+main{
+	display: inline-flex;
+}
+
+img{
+	height: 150px;
+	width: 200px;
+	display: block;
+	/*visibility: visible; none para no mostrarlas*/
+	background: #9999cc;
+	padding: 10%;
+}
+
+.right{
+	padding-left: 4%;
+}
+
+table{
+	margin-left: 100px;
+	width: 80%;
+}
+
+th,tr{
+	background: #660099;
+	padding: 15px;
+	color: #ffffff;
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+	opacity: 0.8;
+
+}
+
+td{
+	background: #ccccff;
+	padding: 10px;
+	color: #000000;
+	font-weight: bold; /*Negrita*/
+	opacity: 0.8;
+}
+
+td{
+	text-align: center;	
+}
+th:first-child{
+	text-align: left;
+}
+
+td:first-child{
+	text-align: left;
+}
+
+td:hover{
+ 	opacity:1;
+}
+
+
+
+
+
+
